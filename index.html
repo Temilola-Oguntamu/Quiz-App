@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-      
+        <div class="intro-container" id="intro-container">
+        <h2 class="intro-text">Test your proficiency in JavaScript programming and front-end development.</h2>
+        <p class="info">This quiz lasts will last for 5minutes, and a timer will inform you of how much time you have left.</p>
+        <p class="info" > Goodluck!.</p>
+        <button id="startBtn" class="start-btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
       <div class="quiz-container" id="quiz-container" style="display: none;">
         <div id="timer" class="timer"></div>
         <div id="quiz" class="quiz"></div>
@@ -17,12 +22,7 @@
         </div>
         <button id="submitBtn" class="submit-btn" onclick="submitQuiz()">Submit</button>
     </div>
-    <div class="intro-container" id="intro-container">
-        <h2 class="intro-text">Test your proficiency in JavaScript programming and front-end development.</h2>
-        <p class="info">This quiz lasts will last for 5minutes, and a timer will inform you of how much time you have left.</p>
-        <p class="info" > Goodluck!.</p>
-        <button id="startBtn" class="start-btn" onclick="startQuiz()">Start Quiz</button>
-    </div>
+  
     <script src="myStyles.js"></script>
 </body>
 </html>
