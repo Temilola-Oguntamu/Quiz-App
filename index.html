@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      
+      <div class="quiz-container" id="quiz-container" style="display: none;">
+        <div id="timer" class="timer"></div>
+        <div id="quiz" class="quiz"></div>
+        <div class="quiz-controls-container">
+            <button id="prevBtn" class="prev-btn" onclick="showPreviousQuestion()" disabled>Previous</button>
+            <button id="nextBtn" class="next-btn" onclick="submitQuiz()">Next</button>
+        </div>
+        <button id="submitBtn" class="submit-btn" onclick="submitQuiz()">Submit</button>
+    </div>
+    <div class="intro-container" id="intro-container">
+        <p class="intro-text">Test your proficiency in JavaScript programming and front-end development.</p>
+        <button id="startBtn" class="start-btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <script src="myStyles.js"></script>
+</body>
+</html>

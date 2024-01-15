@@ -1,0 +1,129 @@
+.intro-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.start-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.timer {
+    position: relative;
+    top: 10px;
+    left: 400px;
+    font-size: 16px;
+    color: rgb(2, 2, 2);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#quiz-container {
+    display: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 0px 30px;
+}
+
+.quiz ul {
+    list-style-type: none;
+    padding: 0;
+}
+.quiz-container .quiz div {
+    margin-bottom: 10px;
+}
+
+.quiz-container .quiz label {
+    margin-left: 5px;
+}
+.quiz-controls-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.result-text {
+    text-align: center;
+}
+
+
+.quiz li {
+    padding-bottom: 20px;
+}
+.question-number {
+    font-weight: bold;
+    margin: 10px;
+}
+.quiz-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.prev-btn, .next-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.prev-btn:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px;
+    display: block;
+    margin: 20px auto;
+}
+.feedback-container {
+    margin-top: 10px;
+}
+.feedback {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+}
+.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+.incorrect {
+    background-color: #FF6347;
+    color: white;
+}
