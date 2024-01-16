@@ -1,6 +1,6 @@
-# WTF-Quiz-App
+# Quiz-App
 
-This is a simple quiz application made with vanilla JavaScript for the WTF December Project Submission.
+This is a simple quiz application made with vanilla JavaScript, HTML AND CSS for the WTF December Project.
 
 # Features:
 •10 multi-choice questions scored at 1 point each.
