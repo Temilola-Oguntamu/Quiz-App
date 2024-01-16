@@ -1,22 +1,12 @@
-Objective: Develop a web-based quiz application using JavaScript to assess the candidate's proficiency in JavaScript programming and front-end development.
-Requirements:
-Quiz Functionality:
-Create a set of at least 10 questions with multiple-choice answers.
-Develop a dynamic quiz interface that displays one question at a time.
-Utilize JavaScript for handling user input, transitioning between questions, and managing the quiz flow.
-Scoring System:
-Implement a scoring system to evaluate user responses.
-Display the user's score upon completion of the quiz.
-Provide instant feedback on each question, indicating correctness.
-Timer Functionality:
-Clearly communicate the time remaining to the user.
-User Interface:
-Apply basic styling to enhance the visual appeal of the quiz.
-Ensure a responsive layout for optimal user experience on different devices.
-Challenges:Anticipate and address potential challenges related to user input handling, dynamic content updates, and overall application responsiveness.
-Submission Guidelines: Please submit a well-documented codebase with clear explanations of the implemented features, and include any necessary instructions for running the application. Also, provide insights into your decision-making process regarding design and functionality.
-Evaluation Criteria:
-JavaScript Proficiency: Effective use of JavaScript for quiz functionality and user interaction.
-Scalability and Modularity: Well-organized and modular code to handle potential future enhancements.
-User Experience: Consideration for user interface design, responsiveness, and overall user experience.
-Problem Solving: Ability to anticipate and address challenges related to quiz development.
+WTF-Quiz-App
+This is a simple quiz application made with vanilla JavaScript for the WTF December Project Submission.
+
+Features:
+•10 multi-choice questions scored as 1 point each
+
+•A countdown timer set for 5 minutes
+Realtime feedback on answers selected (Correct answers will be highlighted with a green background and incorrect answers will be highlighted with a red background when clicked)
+
+•The timer ticks you out once your time is out, and displays the number of correct answers we were able to answer before you ran out of time.
+
+•The timer stops immediately you submit your last answer and the total score is displayed at the end of the quiz.
