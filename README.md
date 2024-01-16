@@ -3,7 +3,7 @@
 This is a simple quiz application made with vanilla JavaScript for the WTF December Project Submission.
 
 # Features:
-•10 multi-choice questions scored as 1 point each
+•10 multi-choice questions scored at 1 point each.
 
 •A countdown timer set for 5 minutes
 Realtime feedback on answers selected (Correct answers will be highlighted with a green background and incorrect answers will be highlighted with a red background when clicked)
