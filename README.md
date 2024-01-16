@@ -1,4 +1,4 @@
-Objective:Develop a web-based quiz application using JavaScript to assess the candidate's proficiency in JavaScript programming and front-end development.
+Objective: Develop a web-based quiz application using JavaScript to assess the candidate's proficiency in JavaScript programming and front-end development.
 Requirements:
 Quiz Functionality:
 Create a set of at least 10 questions with multiple-choice answers.
